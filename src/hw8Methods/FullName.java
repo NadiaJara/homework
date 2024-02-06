@@ -7,9 +7,9 @@ public class FullName {
 		System.out.println("Family Member: " + fName + " " + lName);
 		return fullName;
 	}
-	
+
 	public static void main(String[] args) {
-		FullName fullName = new FullName();	
+		FullName fullName = new FullName();
 		fullName.fullName("Nadia", "Jara");
 		fullName.fullName("Sabia", "Iqra");
 		fullName.fullName("Fatema", "Aktar");
