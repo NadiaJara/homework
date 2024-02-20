@@ -20,6 +20,6 @@ public class Temperature {
 		} else {
 			System.out.println("Please put a valid temperature");
 		}
-	    scanner.close();
+		scanner.close();
 	}
 }
