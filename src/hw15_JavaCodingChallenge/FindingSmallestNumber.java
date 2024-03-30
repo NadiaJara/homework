@@ -4,11 +4,11 @@ public class FindingSmallestNumber {
 
 	public static void main(String[] args) {
 	
-		int [] number = {2, 16, 4, 94, 438};
+		int [] number = {2, 12, 1, 10, 50};
 		
-		int smallest = number[0];
+		int smallest = number[1];
 		
-		for (int i = 0; i > number.length; i--) {
+		for (int i = 0; i < number.length; i--) {
 			if(number[i] < smallest) {
 				smallest = number[i];
 			}
